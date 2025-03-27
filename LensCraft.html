@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensCraft Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        
+        a {
+            text-decoration: none; 
+        }
+
+        /* Service Section Styling */
+        #services {
+            padding: 50px 20px;
+            background-color: #eed9c4; /* Light gray background */
+            text-align: center;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: center; /* Centers the boxes horizontally */
+            gap: 30px; /* Space between columns */
+            flex-wrap: wrap; /* Allows the boxes to wrap on smaller screens */
+        }
+
+        .service-box {
+            width: 300px; /* Fixed width for each box */
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; /* Optional: Adds rounded corners to the boxes */
+            overflow: hidden;
+            transition: transform 0.3s ease; /* Adds hover animation */
+        }
+
+        .service-box img {
+            width: 100%; /* Makes the image span the entire width of the box */
+            height: 200px; /* Adjust the height of the image */
+            object-fit: cover; /* Ensures the image covers the area without distorting */
+        }
+
+        .service-box h3 {
+            padding: 20px;
+            font-size: 18px;
+            background-color: #d9b99b; /* Blue background for the title */
+            color: #fff;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px); /* Slight lift effect on hover */
+        }
+
+        .service-link {
+            display: block;
+            text-decoration: none; /* Removes underline from the link */
+        }
+
+        .service-box:hover img {
+            opacity: 0.8; /* Image fades a little on hover */
+        }
+
+        /* Styling for subheading */
+        .services-subheading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #eed9c4; /* Blue color for the subheading */
+        }
+
+        /* YouTube Shorts Section */
+        #shorts {
+            padding: 50px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #shorts h2 {
+            font-size: 30px;
+            color: #d9b99b;
+        }
+
+        #shorts .shorts-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Social Media Section Styling */
+        .social-media {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #f4f4f4;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icon {
+            color: #000000;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="LensCraft.html"><span class="LensCraft">LensCraft</span> <span class="Studio">Studio</span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="LensCraft.html">Home</a></li> <!-- Home Button -->
+                <li><a href="services.html">Contact/Inquiries</a></li>
+                <li><a href="gallery.html">Gallery</a></li> 
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="about.html">Yes</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-overlay">
+            <h1>Photography</h1>
+            <p>Contact us</p>
+            <div class="buttons">
+
+                <a href="tel:+0210595840" class="phone-btn">
+                    <button>
+                        <i class="fas fa-phone-alt"></i> <b>022 *** ****</b>
+                    </button>
+                </a>
+
+                <a href="mailto:LensCraft@Studios.co.nz" class="email-btn">
+                    <button>
+                        <i class="fas fa-envelope"></i> <b>LensCraft@Studios.co.nz</b>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-container">
+            <img src="agent.jpg" alt="Agent Photo">
+            <div class="about-text">
+                <h2>Photographer 1</h2>
+                <p>Welcome to LensCraft, where every moment is a masterpiece. At our boutique studio, we specialize in capturing the special, fleeting moments that tell your unique story. We believe photography is more than just taking pictures – it’s about creating memories that last a lifetime.
+
+                    Founded by Yippee.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="services-subheading">
+            <h2>Explore our gallery, services and more..</h2>
+        </div>
+        <div class="services-container">
+            <div class="service-box">
+                <a href="gallery.html" class="service-link">
+                    <img src="Gallery1.jpg" alt="Special Moments Gallery">
+                    <h3>Gallery</h3>
+                </a>
+            </div>
+            <div class="service-box">
+                <a href="services.html" class="service-link">
+                    <img src="Services1.jpg" alt="Services">
+                    <h3>Services</h3>
+                </a>
+            </div>
+            <div class="service-box">
+                <a href="blog.html" class="service-link">
+                    <img src="Blog1.jpg" alt="Request an Appraisal">
+                    <h3>Blog</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Shorts Section -->
+<section id="shorts">
+    <h2>Discover Our Content Below..</h2>
+    <p>Watch our latest insights photography projects.</p>
+    <div class="shorts-wrapper">
+        <!-- Video Iframe on the left -->
+        <iframe class="shorts-video" id="shortsVideo" 
+                src="https://www.youtube.com/embed/SHGj_rtP9J8?si=FW-f3OF2mHjNyK_E&amp;controls=1r" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen 
+                playsinline>
+        </iframe>
+
+
+</section>
+
+
+    <!-- Social Media Links -->
+    <section class="social-media">
+        <h3>Follow Us On</h3>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" class="social-icon tiktok">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright&copy;2025 LensCraft - All Rights Reserved.</p>
+    </footer>   
+</body>
+</html>

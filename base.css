@@ -1,0 +1,58 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Container */
+#appraisal-form {
+    flex: 1; /* Allows the form section to grow and push footer down */
+    max-width: 600px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #38b6ff;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0F2F76;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0f2f76;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Pushes the footer to the bottom when content is short */
+}

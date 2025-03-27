@@ -1,0 +1,280 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
+}
+
+/* General Header Styling */
+header {
+    display: flex;
+    justify-content: center; /* Centers everything inside the header */
+    align-items: center;
+    background-color: #d9b99b;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Logo */
+header .logo {
+    font-size: 25px; /* Font size */
+    font-family: 'Archivo Black', sans-serif; /* Archivo Black font */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Ensures the text is centered */
+}
+
+header .LensCraft {
+    color: #ffffff; /* Color for Harcourts */
+}
+
+header .Studio {
+    color: #ffffff; /* Color for Nitin Gaur */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Hero Section */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#hero {
+    background: url('house.jpg') no-repeat center center;
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fcfcfc;
+    text-align: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#hero .buttons {
+    display: flex;
+    flex-direction: column; /* Stack the phone and email buttons vertically */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Centers the buttons vertically */
+    gap: 1px; /* Adds space between the phone and email buttons */
+}
+
+#hero .button-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #d9b99b;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 10px; /* Space between icon and text */
+    transition: background-color 0.3s ease;
+}
+
+#hero .butt
+
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center; /* Vertically aligns the items */
+    justify-content: center; /* Centers the content horizontally */
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center; /* Vertically centers the image and text */
+    justify-content: space-between; /* Space between the image and text */
+    max-width: 650px;
+    margin: auto;
+}
+
+.about-container img {
+    width: 300px; /* Adjust the width of the image */
+    height: auto;
+    margin-right: 40px; /* Adds space between the image and the text */
+    border-radius: 10px; /* Optional: to add rounded corners to the image */
+}
+
+.about-text {
+    max-width: 600px; /* Prevents text from stretching too far */
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6; /* Improve readability by adding line height */
+}
+
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    margin-top: 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #38b6ff; /* Highlight background on hover */
+    color: #ffffff; /* White text color on hover */
+}
+
+.social-icon i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.instagram:hover {
+    background-color: #f34d6b; /* Instagram hover color */
+}
+
+.tiktok:hover {
+    background-color: #ffffff; /* TikTok hover color */
+}
+
+.facebook:hover {
+    background-color: #1877f2; /* Facebook hover color */
+}
+
+/* Form and Button Styles */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #38b6ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #38b6ff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #d9b99b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+/* YouTube Shorts Section */
+#shorts {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#shorts h2 {
+    font-size: 30px;
+    color: #d9b99b;
+    margin-bottom: 20px;
+}
+
+#shorts .shorts-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#shorts iframe {
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
